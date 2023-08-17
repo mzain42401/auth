@@ -2,9 +2,11 @@ import Link from 'next/link'
 import React from 'react'
 
 const index = () => {
+   
   return (
     <>
-     <Link href='/account/logIn'>logIn</Link>
+      hello <br />
+      <Link href='/account/signUp'>back</Link>
     </>
   )
 }
