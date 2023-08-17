@@ -1,6 +1,6 @@
-import { checkData, checkDataPassword } from "@/pages/services/credential";
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
+import { checkData, checkDataPassword } from "../services/credential";
 
 export const authOptions = {
     session:{
