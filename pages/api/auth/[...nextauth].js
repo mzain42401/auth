@@ -14,8 +14,8 @@ export const authOptions = {
         if (!isEmail) {
           throw new Error("user not found")
         }
-        const isvalid = await checkDataPassword(isEmail.password, password)
-        if (!isvalid) {
+        const valid = await checkDataPassword(isEmail.password, password)
+        if (!valid) {
           throw new Error("incorrect password")
 
         }
